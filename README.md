@@ -34,5 +34,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
-## Dependences validar formularios y definir un schema de validación
+## Validar formularios y definir un schema de validación
 npm i formik yup
+
+## Instalar Cliente de Apollo y node fetch para consumir APIs
+npm i @apollo/client node-fetch
+
+## Instalr GRAPHQL
+npm i graphql
