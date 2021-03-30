@@ -40,5 +40,8 @@ npm i formik yup
 ## Instalar Cliente de Apollo y node fetch para consumir APIs
 npm i @apollo/client node-fetch
 
-## Instalr GRAPHQL
+## Instalar GRAPHQL
 npm i graphql
+
+## Instalar Apollo-link-context
+npm i apollo-link-context
