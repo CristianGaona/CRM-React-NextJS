@@ -34,9 +34,12 @@ const Header = () =>{
 
 
     const { nombre, apellido } = data.obtenerUsuario;
+    console.log(nombre);
     const cerrarSesion= () =>{
         localStorage.removeItem('token');
-        router.push("/login")
+        //window.location.href = window.location.href;
+        window.location.replace('/login'); // refresh page
+        //router.push("/login")
     }
     return(
     

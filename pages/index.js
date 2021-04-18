@@ -22,6 +22,7 @@ const Index = () => {
 
   // Consulta de Apollo
   const {data, loading, error } = useQuery(OBTENER_CLIENTES_USUARIO);
+  
   //console.log(data)
   //console.log(loading)
   //console.log(error)
